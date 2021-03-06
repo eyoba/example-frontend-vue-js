@@ -7,6 +7,6 @@
 #  base = "/"
 
 [[redirects]]
-from = ""/*/css/*"
-to = "search/css/*"
+from = "/css/*"
+to = "/search/css/*"
 status = 200
