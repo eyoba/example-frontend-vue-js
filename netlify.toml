@@ -13,4 +13,4 @@
 
 [build]
   base    = "/"
-  publish = "search/dist"
+  publish = "/dist"
