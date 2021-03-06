@@ -5,13 +5,3 @@
 #  command = "npm run build"
 #  publish="dist"
 #  base = "/"
-
-[[redirects]]
-  from = "/*"
-  to = "/search/:splat"
-  status = 200
-  
-  [[redirects]]
-  from = "/static/*"
-  to = "/static/:splat"
-  status = 200
