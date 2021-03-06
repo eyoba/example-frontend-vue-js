@@ -1,4 +1,8 @@
 #[build]
 #  base    = "/"
 #  publish = "search/"
+[build]
+  command = "npm run build"
+  publish="dist"
+  base = "/"
 
