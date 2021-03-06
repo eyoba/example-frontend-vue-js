@@ -3,12 +3,7 @@
  */
 
 module.exports = {
-    /*baseUrl: '/search/'*/
-  productionSourceMap: false,
-  devServer: {
-    port: 3080,
-  },
-
-}
+    baseUrl: '/search/'
+  }
 
 
