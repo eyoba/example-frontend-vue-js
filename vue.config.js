@@ -3,7 +3,7 @@
  */
 
 module.exports = {
-    baseUrl: './'
+    baseUrl: '/search/'
   }
 
 
