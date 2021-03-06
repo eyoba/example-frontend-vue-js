@@ -8,5 +8,10 @@
 
 [[redirects]]
   from = "/*"
-  to = "search/:splat"
+  to = "/search/:splat"
+  status = 200
+  
+  [[redirects]]
+  from = "/static/*"
+  to = "/static/:splat"
   status = 200
