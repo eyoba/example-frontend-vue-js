@@ -6,8 +6,3 @@
 #  publish="dist"
 #  base = "/"
 
-[[redirects]]
-from = "/static/*"
-to = "/static/:splat"
-status = 200
-force = true
