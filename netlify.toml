@@ -6,11 +6,9 @@
 #  publish="dist"
 #  base = "/"
 
-#[[redirects]]
-#from = "/search/*"
-#to = "https://example-frontend-vue-js.netlify.app/:splat"
-#status = 200
+[[redirects]]
+from = "/*"
+to = "https://example-frontend-vue-js.netlify.app/:splat"
+status = 200
 
-[build]
-  base    = "/"
-  publish = "search/dist"
+
