@@ -3,6 +3,6 @@
  */
 
 module.exports = {
-    publicPath: '/search/'
+    baseUrl: '/search/'
   }
-  
+
