@@ -12,8 +12,8 @@
 #status = 200
 
 [[redirects]]
-from = "search/"
-to = "/"
+from = "/search/*"
+to = "/:splat"
 status = 200
 
 
