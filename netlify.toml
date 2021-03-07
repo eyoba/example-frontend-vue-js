@@ -8,7 +8,7 @@
 
 [[redirects]]
 from = "/search/*"
-to = "/"
+to = "./"
 status = 200
 
 
