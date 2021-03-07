@@ -5,7 +5,11 @@
 module.exports = {
     //baseUrl: '/search/'
   productionSourceMap: false,
-  assetsDir:'./',
+
+
+  assetsDir: process.env.NODE_ENV === 'production'
+    ? '/search/'
+    : '/',
 
   baseUrl: process.env.NODE_ENV === 'production'
     ? '/search/'
