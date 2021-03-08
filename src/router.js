@@ -37,10 +37,6 @@ export default new Router({
       component: () =>
         import(/* webpackChunkName: "person" */ "./views/Person.vue"),
       props: route => ({ id: route.params.id })
-    },
-    {
-      path: '/search',
-      redirect : '/'
-    },
+    }
   ]
 });
