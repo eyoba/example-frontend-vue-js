@@ -18,25 +18,25 @@ export default new Router({
       name: "movies",
       component: Movies
     },
-    {
+  /*  {
       path: "/people",
       name: "people",
       component: () =>
-        import(/* webpackChunkName: "people" */ "./views/People.vue")
+        import(/!* webpackChunkName: "people" *!/ "./views/People.vue")
     },
     {
       path: "/movie/:id",
       name: "movie",
       component: () =>
-        import(/* webpackChunkName: "movie" */ "./views/Movie.vue"),
+        import(/!* webpackChunkName: "movie" *!/ "./views/Movie.vue"),
       props: route => ({ id: route.params.id })
     },
     {
       path: "/people/:id",
       name: "person",
       component: () =>
-        import(/* webpackChunkName: "person" */ "./views/Person.vue"),
+        import(/!* webpackChunkName: "person" *!/ "./views/Person.vue"),
       props: route => ({ id: route.params.id })
-    }
+    }*/
   ]
 });
