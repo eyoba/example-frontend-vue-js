@@ -11,9 +11,9 @@
 #to = "https://example-frontend-vue-js.netlify.app/:splat"
 #status = 200
 
-#[[redirects]]
-#from = "/search/*"
-#to = "./:splat"
-#status = 200
+[[redirects]]
+from = "/search/*"
+to = "./:splat"
+status = 200
 
 
