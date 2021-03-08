@@ -3,13 +3,14 @@
  */
 
 module.exports = {
-   baseUrl: '/search/'
+    baseUrl: '/search/'
   //productionSourceMap: false,
   //outputDir: '../dist',
   //assetsDir: 'static',
  /* baseUrl: process.env.NODE_ENV === 'production'
     ? '/search/'
     : '/'
-  }*/
+  */
+  }
 
 
