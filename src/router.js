@@ -9,30 +9,30 @@ export default new Router({
   base: process.env.BASE_URL,
   routes: [
     {
-      path: "/",
+      path: "eyob/",
       name: "index",
       component: Movies
     },
     {
-      path: "/movies",
+      path: "eyob/movies",
       name: "movies",
       component: Movies
     },
     {
-      path: "/people",
+      path: "eyob/people",
       name: "people",
       component: () =>
         import(/* webpackChunkName: "people" */ "./views/People.vue")
     },
     {
-      path: "/movie/:id",
+      path: "eyob/movie/:id",
       name: "movie",
       component: () =>
         import(/* webpackChunkName: "movie" */ "./views/Movie.vue"),
       props: route => ({ id: route.params.id })
     },
     {
-      path: "/people/:id",
+      path: "eyob/people/:id",
       name: "person",
       component: () =>
         import(/* webpackChunkName: "person" */ "./views/Person.vue"),
