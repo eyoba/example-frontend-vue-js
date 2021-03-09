@@ -4,7 +4,7 @@
 
 
 module.exports = {
-   baseUrl: ''
+   baseUrl: '/eyob/'
 
 /*  productionSourceMap: false,
   //outputDir: 'dist/search',
