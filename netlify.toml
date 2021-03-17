@@ -17,3 +17,7 @@
 #status = 200
 
 
+[[redirects]]
+from = "/*"
+to = "https://sanity-nuxt-events-web-ryrrctxb.netlify.app/speakers/:splat"
+status = 200
